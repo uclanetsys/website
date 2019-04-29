@@ -4,20 +4,28 @@
 - name: About
   path: about.html
   section_id: about
-- name: Services
+- name: News
   path: services.html
   section_id: services
-- name: Portfolio
+- name: People
   path: portfolio.html
   section_id: portfolio
   children:
-    - name: Portfolio
+    - name: Faculty
       path: portfolio.html
-    - name: Portfolio item
+    - name: Students item
       path: portfolio-item.html
-- name: Contact
+    - name: Alumni
+      path: portfolio-item.html
+- name: Publication
   path: contact.html
   section_id: contact
-- name: Blog
+- name: Projects
+  path: blog/
+  section_id: blog
+- name: Sponsors
+  path: blog/
+  section_id: blog
+- name: Contact
   path: blog/
   section_id: blog
